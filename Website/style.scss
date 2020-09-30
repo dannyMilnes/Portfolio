@@ -25,10 +25,16 @@ body {
 .designer-title {
     font-family: Portico;
     font-size: 5em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 .developer-title {
     font-family: American Typewriter;
     font-size: 5em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 .screen {
@@ -39,7 +45,8 @@ body {
     flex-wrap: wrap;
     
     &-window {
-        margin: 2em;
+        // display: flex;
+        margin: 0 2em;
         height: 400px;
         width: 700px;
         border-radius: 14px 14px 10px 10px;
