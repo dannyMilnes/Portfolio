@@ -19,7 +19,10 @@ body {
 
     svg {
         filter: drop-shadow(0.15rem 0.15rem 0.3rem rgba(0, 0, 0, 0.3));
+        margin-left: 3em;
+        margin-right: 3em;
     }
+    
 }
 
 .designer-title {
@@ -28,6 +31,15 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
+    @media only screen and (max-width: 742px) {
+            font-size: 4em;
+        }
+    @media only screen and (max-width: 495px) {
+        font-size: 3em;
+    }
+    @media only screen and (max-width: 371px) {
+        font-size: 2em;
+    }
 }
 .developer-title {
     font-family: American Typewriter;
@@ -35,6 +47,15 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
+    @media only screen and (max-width: 742px) {
+            font-size: 4em;
+        }
+    @media only screen and (max-width: 495px) {
+        font-size: 3em;
+    }
+    @media only screen and (max-width: 371px) {
+        font-size: 2em;
+    }
 }
 
 .screen {
@@ -52,6 +73,18 @@ body {
         border-radius: 14px 14px 10px 10px;
         position: relative;
         filter: drop-shadow(0.15rem 0.15rem 0.3rem rgba(0, 0, 0, 0.3));
+        @media only screen and (max-width: 742px) {
+            height: 250px;
+            width: 450px;
+        }
+        @media only screen and (max-width: 495px) {
+            height: 200px;
+            width: 350px;
+        }
+        @media only screen and (max-width: 371px) {
+            height: 180px;
+            width: 300px;
+        }
 
         &__img {
             padding-top: 20px;
