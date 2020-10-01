@@ -17,8 +17,9 @@ body {
     align-items: center;
     justify-content: center;
 
-    svg {
+    img {
         filter: drop-shadow(0.15rem 0.15rem 0.3rem rgba(0, 0, 0, 0.3));
+        width: 400px;
         margin-left: 3em;
         margin-right: 3em;
     }
