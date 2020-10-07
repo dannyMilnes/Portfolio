@@ -218,6 +218,7 @@ body {
 
 .trim-container svg {
   width: 80%;
+  max-width: 700px;
   fill: #c3c3c3;
 }
 /*# sourceMappingURL=style.css.map */
