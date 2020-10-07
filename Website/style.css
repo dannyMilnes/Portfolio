@@ -2,6 +2,7 @@ body {
   background: #E3E3E3;
   margin: 0;
   padding: 0;
+  font-family: "Effra", Helvetica, sans-serif;
 }
 
 .header-img-container {
@@ -116,7 +117,7 @@ body {
 
 @media only screen and (max-width: 495px) {
   .screen-container__title-design {
-    height: 2em;
+    height: 2.4em;
   }
 }
 

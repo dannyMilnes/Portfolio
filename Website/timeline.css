@@ -1,0 +1,141 @@
+/* Import */
+@import url("https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800");
+/* Variables */
+/* Base */
+p {
+  font-weight: 300;
+}
+
+a {
+  color: #6c6d6d;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: .3em;
+  font-size: .6em;
+  font-weight: 400;
+  background: #252727;
+  padding: .3rem 1rem;
+  margin: 1.9rem 0 0 0;
+  float: right;
+}
+
+a:hover {
+  color: white;
+  background: #6c6d6d;
+  border-bottom: .35em solid black;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1 {
+  font-family: "Saira", sans-serif;
+  letter-spacing: 1.5px;
+  color: #6c6d6d;
+  font-weight: 400;
+  font-size: 2.4em;
+}
+
+#timeline-content {
+  text-align: center;
+}
+
+/* Timeline */
+.timeline {
+  border-left: 4px solid #6c6d6d;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: fade(white, 3%);
+  color: fade(white, 80%);
+  font-family: "Chivo", sans-serif;
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 40%;
+}
+
+@media only screen and (max-width: 751px) {
+  .timeline {
+    margin: 50px 0 0 200px;
+  }
+}
+
+@media only screen and (max-width: 439px) {
+  .timeline {
+    margin: 50px 0 0 130px;
+    max-width: 50%;
+    font-size: 1em;
+    padding: 10px 40px 40px 20px;
+  }
+}
+
+.timeline h2, .timeline h3 {
+  font-family: "Saira", sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.timeline .event {
+  border-bottom: 1px dashed fade(white, 10%);
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before, .timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  left: -217.5px;
+  color: fade(white, 40%);
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+  font-family: "Saira", sans-serif;
+}
+
+@media only screen and (max-width: 439px) {
+  .timeline .event:before {
+    left: -163.5px;
+    font-size: 0.7em;
+  }
+}
+
+.timeline .event:after {
+  left: -61.7px;
+  margin-top: -4px;
+  border: 3px solid #e42125;
+  background: #fff;
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+  content: "";
+  top: 5px;
+}
+
+@media only screen and (max-width: 439px) {
+  .timeline .event:after {
+    left: -31.95px;
+  }
+}
+/*# sourceMappingURL=timeline.css.map */
